@@ -12,8 +12,8 @@ def posts
 end
 
 def add_post(posts)
-  @posts << name
-  post.author = self
+  @posts << posts
+  posts.author = self
 end
 
 
