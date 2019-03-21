@@ -21,6 +21,6 @@ def artist_name
   if self.artist.name == nil
     return nil
   end
-
+end
 
 end
