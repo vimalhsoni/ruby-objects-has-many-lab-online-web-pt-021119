@@ -7,15 +7,16 @@ def initialize(name)
   @posts = []
 end
 
-def posts
-    @posts << name
+def add_post(post)
+  @post << post
+  post.author = self
 end
 
-def add_post(posts)
-  @posts << posts
-  posts.author = self
+def post
+  @posts
 end
 
+end
 
 def posts
    @posts
