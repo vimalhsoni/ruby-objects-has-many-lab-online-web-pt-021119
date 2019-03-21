@@ -22,5 +22,5 @@ def artist_name
     return nil
   end
 
-  
+
 end
