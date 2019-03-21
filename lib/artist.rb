@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def add_song(song)
-  @songs << song
+  @songs.push(song)
   song.artist = self
 end
 
@@ -18,7 +18,7 @@ end
 
 def add_song_by_name(song)
   song = Song.new(song)
-  @songs << song
+  @songs.push(song)
   song.artist = self
 end
 
