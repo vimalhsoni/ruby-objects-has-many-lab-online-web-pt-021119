@@ -12,7 +12,7 @@ end
 def add_song(song)
   @songs.push(song)
   song.artist = self
-  @@song_count += 1
+  @@song_count +=1
 end
 
 def songs
@@ -23,6 +23,7 @@ def add_song_by_name(song)
   song = Song.new(song)
   @songs.push(song)
   song.artist = self
+  @@song_count += 1
 end
 
 def self.song_count
