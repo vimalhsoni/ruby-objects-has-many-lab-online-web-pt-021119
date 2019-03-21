@@ -17,4 +17,8 @@ def artist_name
     self.artist.name
 end
 
+def self.count
+  @@all.count
+end
+
 end
