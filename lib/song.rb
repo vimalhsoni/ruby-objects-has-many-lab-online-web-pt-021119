@@ -13,8 +13,4 @@ def self.all
   @@all
 end
 
-def artist
-  song.artist = self
-end
-
 end
