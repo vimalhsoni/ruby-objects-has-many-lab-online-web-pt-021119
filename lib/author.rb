@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def add_post(post)
-  @post << post
+  @posts << post
   post.author = self
 end
 
