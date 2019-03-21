@@ -16,11 +16,5 @@ def post
   @posts
 end
 
-end
-
-def posts
-   @posts
- end
-
 
 end
