@@ -11,7 +11,7 @@ def posts
     @posts << name
 end
 
-def add_post(title)
+def add_post(posts)
   @posts << name
 end
 
